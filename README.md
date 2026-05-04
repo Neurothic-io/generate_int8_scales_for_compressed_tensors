@@ -22,7 +22,7 @@ python calibrate_int8_kv_scales.py --config models/qwen3.6-27b.json
 
 ## Requirements
 
-- `transformers>=5.7`
+- `transformers>=5.2`
 - `datasets`, `safetensors`, `torch`
 - System RAM: ~model size (17GB for W4A16, 54GB for bf16 base)
 - GPU VRAM: ~1-3GB (one layer at a time)
