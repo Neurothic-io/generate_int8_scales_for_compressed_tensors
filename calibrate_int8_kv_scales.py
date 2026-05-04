@@ -497,6 +497,7 @@ def inject_scales(target_dir, k_scales, v_scales):
             "num_bits": 8,
             "type": "int",
             "symmetric": True,
+            "strategy": "tensor",
         }
         config["quantization_config"] = qc
         with open(config_path, "w") as f:
