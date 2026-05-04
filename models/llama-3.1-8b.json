@@ -1,0 +1,6 @@
+{
+    "base_model": "meta-llama/Llama-3.1-8B-Instruct",
+    "target_dir": "/models/Llama-3.1-8B-Instruct-GPTQ",
+    "num_samples": 256,
+    "max_seq_len": 4096
+}

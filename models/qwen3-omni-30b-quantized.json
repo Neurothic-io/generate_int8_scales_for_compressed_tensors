@@ -1,0 +1,9 @@
+{
+    "base_model": "/models/Qwen3-Omni-30B-A3B-Instruct-AWQ-W4A16",
+    "model_class": "Qwen3OmniMoeForConditionalGeneration",
+    "language_model_path": "thinker.model",
+    "target_dir": "/models/Qwen3-Omni-30B-A3B-Instruct-AWQ-W4A16",
+    "num_samples": 512,
+    "max_seq_len": 4096,
+    "quantized": true
+}
